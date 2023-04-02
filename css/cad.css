@@ -1,0 +1,50 @@
+.formulario{
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    color: #ce477f;
+    padding: 30px;
+    border-radius: 7px;
+    /* align-items: center; se eu quiser centralizar os textos */
+}
+
+#saldacao{
+    font-size: 20px;
+    /* margin: 0 auto; */
+    margin-bottom: 20px;
+    align-self: center;
+}
+
+.formulario h4 {
+    margin: 0;
+}
+
+.formulario input{
+    border: 2px solid #32b9cd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 5px 3px 5px 3px;
+}
+
+.formulario button{
+    background-color: #ce477f;
+
+    /* se eu quiser animar o botão */
+    border-radius: 5px;
+    border: 2px solid transparent;
+    transition: 1s;
+
+    color: white;
+    padding: 5px 2px 5px 2px;
+    width: 100px;
+    align-self: center;
+    cursor: pointer;
+}
+
+/* se eu quiser animar o botão */
+
+.formulario button:hover{
+    border-color: #ce477f;
+    background-color: #fff;
+    color: #ce477f;
+}
